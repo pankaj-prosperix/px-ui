@@ -143,3 +143,28 @@ A styled button component with variant and size customization.
 **Inherited Props:** Inherits all props from native HTML `button` element including `onClick`, `disabled`, `type`, etc.
 
 ### Designer Notes
+
+Buttons are clickable elements that trigger actions. Buttons are used to initiate actions in the system. Button labels tell the user what action will occur when the user interacts with it.  
+
+Each button must clearly communicate:
+
+- Action (what will happen)
+    
+- Priority (how important it is & based on priority choose variant )
+    
+- State (can I click it right now?)
+    
+Variants:
+
+1. Primary: For the important action on the page. Generally, the primary button should only appear once per screen/page.
+    
+2. Default: This is used for less prominent actions, e.g., back, cancel, close, etc. 
+    
+3. Destructive: For actions that could have destructive effects on the user’s data (for e.g. delete or remove).
+    
+4. Outline/tertiary: For less prominent and independent actions. Outline button can be used for sub-tasks, on a page. 
+    
+5. Primary Outline/ secondary: For actions that are positive and something to the system, but not necessary for the system for e.g. posting announcements, scheduling events, etc
+    
+
+6. Ghost: For the least prominent actions; often used with the primary button. In a situation such as a progress flow, a ghost button may be paired with a primary and secondary button set, where the primary button is for forward action, the secondary/default is for back, and the ghost button is for “Cancel”.
